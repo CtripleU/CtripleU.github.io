@@ -1,0 +1,504 @@
+/* Body styles */
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0 ;
+    padding: 0 ;
+    font-family: 'Inter', sans-serif;
+    max-width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/* Center the entire page and other elements */
+div {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* Font styles */
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+li, button {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+h1, h2, h3 {
+    color: #202939;
+}
+
+p {
+    line-height: 24px;
+    color: #4B5565;
+    margin: 0;
+}
+
+header {
+    margin-top: 0;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    height: 80px;
+}
+
+.header-logo img {
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.header-logo {
+    padding-top: 20px;
+    margin-left: -50px;
+}
+
+.header-items h4 {
+    display: inline;
+    padding: 0 20px;
+}
+
+.menuItem a {
+    color: #202939;
+    font-weight: normal;
+}
+
+
+.header-items a:hover {
+    text-decoration: underline;
+    text-decoration-color: #41337A;
+    text-decoration-thickness: 3px;
+    cursor: pointer;
+    text-underline-offset: 1px;
+    
+}
+
+#blog {
+        color: #222222;
+        border-radius: 8px;
+}
+
+#blog a {
+    text-decoration: none;
+    color: #222222;
+}
+
+#blog a:hover {
+    text-decoration: underline;
+    text-decoration-color: #41337A;
+    text-decoration-thickness: 3px;
+    cursor: pointer;
+    text-underline-offset: 1px;
+}
+
+#blog .fa-solid {
+    padding-left: 10px;
+}
+
+
+.hamburger {
+    display: none;
+}
+
+/* Project Styles */
+.project-wrapper {
+    /* background-color: #ccd5ae; */
+    height: 100%;
+    padding-top: 48px;
+}
+
+.wrapper-heading {
+    margin: 0 !important;
+    margin-bottom: 24px !important;
+    padding-left: 0 !important;
+    text-align: center;
+    color: #202939;
+    font-size: 40px;
+}
+
+.project-hero {
+    margin-bottom: 56px;
+    padding: 0 30px;
+}
+
+.project-container {
+    /* border: 2px solid red; */
+    margin-bottom: 72px;
+    padding: 0 30px 0 30px;
+}
+
+.project-cards, project-info-box {
+    display: grid;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 36px;
+}
+
+.project-box-heading {
+        display: grid;
+        grid-template-columns: 1fr 8fr;
+        grid-gap: 20px;
+        border-radius: 8px;
+        transition: 0.4s ease-in-out;
+        cursor: pointer; 
+        padding: 10px;
+        border: none;
+        margin-bottom: 50px;
+        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.project-icon-heading .fa-solid {
+    text-align: left;
+    margin-top: 16px;
+    font-size: 36px;
+}
+
+.project-info-heading {
+    margin: auto !important;
+    max-width: 680px;
+}
+
+
+.project-box {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    grid-gap: 20px;
+    border-radius: 8px;
+    transition: 0.4s ease-in-out;
+    cursor: pointer; 
+    padding-left: 10px;
+    padding-right: 10px;
+    /* border: none; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+
+.project-box p {
+    font-size: 16px;
+    color: #4B5565;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.project-info {
+    margin-left: -10px;
+}
+
+
+.information {
+    display: flex;
+    margin-top: -15px;
+    padding: 0;
+    font-size: 1.125rem;
+    list-style: none;
+    font-weight: bold;
+}
+
+.information>li:not(:first-child)::before {
+    content: "/";
+    margin: 0 5px;
+    font-weight: normal;
+    color: #222222
+}
+
+.project-info li {
+    list-style-type: none;
+}
+
+.project-info a {
+    color: #41337A;
+    text-align: left;
+}
+
+.project-icon .fa-solid {
+    margin-top: 24px;
+}
+
+.project-box h4 {
+    color: #202939;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.project-cards img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.project-btn {
+    margin: 0 !important;
+    padding-left:0 !important;
+}
+
+.project-type {
+    margin: 0 !important;
+    margin-bottom: 32px !important;
+    text-align: center;
+    color: #202939;
+}
+
+
+
+/* Footer Styles */
+footer.contact-wrapper {
+    background-color: #202939;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+
+footer.contact-wrapper p {
+    color: white;
+    text-align: center;
+}
+
+.footer-p {
+    color: white !important;
+}
+
+a#email {
+    color: #222222;
+    text-align: center!important;
+
+}
+
+.brand-icons {
+    width: 25px;
+    height: 50px;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+.fa-heart {
+    color: red;
+}
+
+/* Style Photo */
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    align-content: center;
+}
+
+/* Button styles */
+button {
+    padding: 10px 20px 10px 20px;
+    border-radius: 6px;
+    background-color: #202939;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.more-btn {
+    margin-bottom: 72px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* Responsive Styles */
+
+/* Hamburger menu styles */
+@media (max-width: 670px) {
+    .menu {
+        position: fixed;
+        transform: translateY(-100%);
+        transition: transform 0.2s;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 99;
+        background: white;
+        color: white;
+        display: grid;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    }
+
+    .menuItem {
+        display: grid;
+        font-size: 16px;
+        color: black;
+        margin: 8px 10px;
+        text-align: left;
+    }
+
+    .menuItem h4 {
+        padding: 0 !important;
+    }
+    
+    .hamburger  {
+        display: block;
+        background-color:white;
+        color: #222222;
+        position: fixed;
+        z-index: 100;
+        top: 6px;
+        right: 16px;
+        padding: 4px;
+        background: white;
+        cursor: pointer;
+        font-size: 24px;
+    }
+    
+    .closeIcon {
+        display: none;
+    }
+    
+    .showMenu {
+        transform: translateY(0);
+        height: 200px;
+        margin: 80px 16px 0px 80px;
+        border-radius: 8px;
+    }
+
+}
+    
+
+/* For Laptop Screens */
+@media (min-width: 900px) {
+    .project-cards { 
+        grid-template-columns: repeat(3, 1fr); 
+    }
+
+    .about-me, .contact-me {
+            margin-left: 280px;
+            margin-right: 230px;
+        }
+
+        .project-icon-heading .fa-solid {
+            text-align: left;
+            margin-top: 8px;
+            font-size: 36px;
+        }
+
+    .project-box-heading {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+}
+
+
+/* For Ipad Screens:  600 t0 990 */
+@media (min-width: 600px) and (max-width: 990px)  {
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .header-logo {
+        position: fixed;
+        left: -20px;
+        top: -45px;
+    }
+
+    .header-items h4 {
+        margin-left: 35px;
+    }
+
+    .project-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    div.hero {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+}
+
+
+/* For phone Screens: =< 690 */
+@media (max-width: 450px) {
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    
+      /* Hamburger menu */
+    .showMenu {
+        transform: translateY(0);
+        width: 290px !important;
+    }
+
+
+    .header-logo {
+        position: fixed;
+        left: 14px;
+        top: -45px;
+    }
+
+
+    div.hero {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    
+    .project-cards img {
+        width: 350px;
+        height: 200px;
+        border-radius: 5px;
+        object-fit: cover;
+    }
+    
+    #blog .fa-solid {
+        padding-left: 10px;
+        font-size: 15px;
+    }
+
+    /* Font Options */
+    .hero h1 {
+        font-size: 18px;
+    }
+
+    #hero-text {
+        font-size: 32px;
+        line-height: 36px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #hero-description {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+}
