@@ -5,7 +5,7 @@ header:
   image: "/images/data.png"
 ---
 
-Hello! I am a dynamic professional with a rare blend of technical acumen and social consciousness. You will find me at the intersection of technology, research, and social impact. I am motivated by the simple yet powerful belief that technology, when wielded with purpose, has the potential to reshape our world for the better.
+Hello! I am a dynamic professional who is deeply interested in how things work, and how they can work better. My interests lie at the intersection of technology, research, and social impact.
 
 Throughout my career, I have excelled in diverse roles spanning Machine Learning, Research, Project Management, and DevOps. I have consistently demonstrated my ability to:
 
@@ -14,7 +14,7 @@ Throughout my career, I have excelled in diverse roles spanning Machine Learning
 - Contribute to technically challenging projects
 - Deliver impactful solutions
 
-I am deeply interested in the **healthcare**, **education**, and **business** sectors and am adept at seeing opportunities where others might see obstacles in these fields.
+I am deeply interested in the **healthcare**, **education**, and **business** sectors and am adept at finding opportunities where others might see obstacles in these fields.
 
 Currently in the final stretch of my Software Engineering degree, I am on track to graduate with First-Class Honours. My academic excellence has been recognized through prestigious awards, including the Palantir Global Scholarship in 2024 and the Mastercard Foundation Scholarship in 2021.
 
