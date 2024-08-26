@@ -1,0 +1,45 @@
+/* ==========================================================================
+   TABLES
+   ========================================================================== */
+
+table {
+  margin-bottom: 1em;
+  width: 100%;
+  font-family: $global-font-family;
+  font-size: $type-size-6;
+  border-collapse: collapse;
+  display: block;
+  overflow: auto;
+  line-height: 16px;
+
+  & + table {
+    margin-top: 1em;
+  }
+}
+
+thead {
+  background-color: $border-color;
+  border-bottom: 2px solid mix(#000, $border-color, 25%);
+}
+
+th {
+  padding: 0.5em;
+  font-weight: bold;
+  text-align: left;
+}
+
+td {
+  padding: 0.5em;
+  border-bottom: 1px solid mix(#000, $border-color, 25%);
+}
+
+tr:hover {
+ background: #91a0b8;
+}
+
+
+tr,
+td,
+th {
+  vertical-align: middle;
+}

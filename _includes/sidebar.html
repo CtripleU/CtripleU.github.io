@@ -1,0 +1,39 @@
+<style>
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+    
+</style>
+
+{% if page.author_profile or layout.author_profile or page.sidebar %}
+  <div class="sidebar sticky">
+  {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
+  {% if page.sidebar %}
+   
+
+  {% endif %}
+  
+  <a href="mailto:cumioyemike@gmail.com" style="text-decoration: none;color: black;" target="_blank"><img src="https://.github.io/images/icons/mail.png" style="width: 20px; margin-bottom:7px;"> Mail </a>
+  <a href="https://www.linkedin.com/in/cumi-oyemike/" style="text-decoration: none;color: black;margin-top:-20px;" target="_blank"><img src="https://ctripleu.github.io/images/icons/linkedin.png" style="width: 20px; margin-bottom:7px;"> LinkedIn </a>
+  <a href="https://github.com/CtripleU" style="text-decoration: none;color: black;margin-top:-20px;" target="_blank"><img src="https://ctripleu.github.io/images/icons/github.png" style="width: 20px; margin-bottom:7px;"> Github </a> 
+  <a href="https://medium.com/@cumioyemike" style="text-decoration: none;color: black;margin-top:-20px;" target="_blank"><img src="https://ctripleu.github.io//images/icons/medium.png" style="width: 20px; margin-bottom:7px;"> Medium </a>      
+  <a href="https://www.kaggle.com/cumioyemike" style="text-decoration: none;color: black;margin-top:-20px;" target="_blank"><img src="https://ctripleu.github.io//images/icons/kaggle.png" style="width: 20px; margin-bottom:7px;"> Kaggle </a>
+  
+   <!-- <p style="font-size:15px;text-align: justify;">
+	
+	</p> -->
+
+   <h3>Skills</h3>
+   <ul>
+        <li>Research/li>
+        <li>Data Mining</li>
+        <li>Data Analysis</li>
+        <li>Data Visualization</li>
+        <li>Machine Learning</li>
+        <li>DevOps and SRE</li>
+   </ul>
+
+</div>
+{% endif %}
+
