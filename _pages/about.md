@@ -22,7 +22,7 @@ Currently in the final stretch of my Software Engineering degree, I am on track 
 
 
 
-Beyond my professional pursuits, I actively volunteer for causes that drive meaningful change by addressing pressing societal issues and empowering individuals and communities. When I am not working or volunteering, you will find me reading a good book or essay, ([writing about life](https://journeylessons.substack.com/)), enjoying good music, or going on a relaxing walk.
+Beyond my professional pursuits, I actively volunteer for causes that drive meaningful change by addressing pressing societal issues and empowering individuals and communities. When I am not working or volunteering, you will find me reading a good book or essay, [writing about life](https://journeylessons.substack.com/), enjoying good music, or going on a relaxing walk.
 
 **If you are working on something exciting that sits at the intersection of research and technology, I'd love to chat about how my skills and passion for data-driven solutions can contribute to your team or project! Please feel free to connect with me on LinkedIn [LinkedIn](https://www.linkedin.com/in/cumi-oyemike/)**
 
