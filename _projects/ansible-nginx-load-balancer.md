@@ -1,6 +1,6 @@
 ---
 title: "Ansible Nginx Load Balancer Infrastructure"
-date: 2023-10-06
+date: 2022-10-06
 tags: [ansible, nginx, load balancing, vagrant, devops]
 header:
   image: "images/projects/load-balancer/lb.webp"
