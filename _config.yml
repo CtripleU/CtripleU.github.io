@@ -11,7 +11,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Cumi Oyemike"
+title                    : "Cumi's Portfolio"
 title_separator          : "-"
 name                     : "Cumi Oyemike"
 description              : "Data Science Portfolio"
