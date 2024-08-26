@@ -20,9 +20,11 @@ Currently in the final stretch of my Software Engineering degree, I am on track 
 
 **I enjoy working with diverse teams and bringing different perspectives together to create something truly innovative. As a result, I am seeking opportunities to push the boundaries of what could be achieved by harnessing data, technology, and research. My goal is to contribute to projects that will challenge me and push me to grow, while creating something extraordinary.**
 
-Beyond my professional pursuits, I actively volunteer for causes that drive meaningful change by addressing pressing societal issues and empowering individuals and communities. When I am not working or volunteering, you will find me reading a good book or essay, writing, enjoying good music, or going on a relaxing walk.
 
-**If you are working on something exciting that sits at the intersection of research and technology, I'd love to chat about how my skills and passion for data-driven solutions can contribute to your team or project! Please feel free to connect with me on LinkedIn [LnkedIn](https://www.linkedin.com/in/cumi-oyemike/)**
+
+Beyond my professional pursuits, I actively volunteer for causes that drive meaningful change by addressing pressing societal issues and empowering individuals and communities. When I am not working or volunteering, you will find me reading a good book or essay, ([writing about life](https://journeylessons.substack.com/)), enjoying good music, or going on a relaxing walk.
+
+**If you are working on something exciting that sits at the intersection of research and technology, I'd love to chat about how my skills and passion for data-driven solutions can contribute to your team or project! Please feel free to connect with me on LinkedIn [LinkedIn](https://www.linkedin.com/in/cumi-oyemike/)**
 
 
 

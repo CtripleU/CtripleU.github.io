@@ -1,6 +1,6 @@
 ---
 title: "BERT-Based Medical Chatbot"
-date: 2024-06-23
+date: 2022-08-23 #changed date to bring it up. actual 2024-06-23
 author_profile: true
 excerpt: "This project implements a machine learning model for answering medical questions using the BERT architecture, specifically the Bio_ClinicalBERT model, fine-tuned on the ChatDoctor-HealthCareMagic-100k dataset."
 tags: [BERT, chatbot, medical, machine learning, NLP]
