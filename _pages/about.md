@@ -7,7 +7,7 @@ header:
 
 Hello! I am a dynamic professional who is deeply interested in how things work, and how they can work better. My interests lie at the intersection of technology, research, and social impact.
 
-Throughout my career, I have excelled in diverse roles spanning Machine Learning, Research, Project Management, and DevOps. I have consistently demonstrated my ability to:
+Throughout my career, I have excelled in diverse roles spanning Machine Learning, Research and Analysis, Project Management, and DevOps. I have consistently demonstrated my ability to:
 
 - Master new technologies
 - Apply rigorous analytical thinking
