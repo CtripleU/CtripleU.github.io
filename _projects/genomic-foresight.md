@@ -1,6 +1,6 @@
 ---
 title: "Genomic Surveillance and Predictive Modelling of Mpox Virus Evolution"
-date: 2024-10-08
+date: 2025-01-20
 author_profile: true
 excerpt: "This project leverages artificial intelligence and machine learning to predict high-risk mutations in Mpox virus. Aimed at enhancing pandemic preparedness and assisting public health decisions in Central and West Africa."
 tags: [genomic surveillance, AI, machine learning, web development, mpox, public health, healthcare]
