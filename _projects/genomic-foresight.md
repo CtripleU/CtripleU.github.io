@@ -54,20 +54,8 @@ The **GenomicForesight** platform is a fully functional web application with the
 - **Real-Time Reporting**: Visualizations of mutation co-occurrence, temporal trends, and evolutionary trajectories.
 - **Report Generation**: Generate downloadable, detailed PDF reports summarising mutation analyses, predictive model outputs, and actionable insights.
 
-Analysis Dashboard:
-![Analysis Dashboard](/images/projects/mpox/genomic_surveillance_platform.png)
 
-File Upload Page:
-![File Upload Page](/images/projects/mpox/genomic_surveillance_platform.png)
-
-Analysis Results Page:
-![Analysis Results Page](/images/projects/mpox/genomic_surveillance_platform.png)
-
-Analysis Visualization Page:
-![Analysis Visualization Page](/images/projects/mpox/genomic_surveillance_platform.png)
-
-Generate PDF Report Page:
-![Generate PDF Report Page](/images/projects/mpox/genomic_surveillance_platform.png)
+Watch the demo video [![here](images/teaser.png)](videos/demo.mp4)
 
 
 ### Explore More
