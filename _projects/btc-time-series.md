@@ -1,6 +1,6 @@
 ---
 title: "Bitcoin Price Forecasting with Time Series Analysis"
-date: 2021-01-15 #changed date to bring it up. actual 2024-05-15
+date: 2024-05-15
 author_profile: true
 excerpt: "This project focuses on applying time series analysis techniques to forecast Bitcoin (BTC) prices using advanced machine learning models and TensorFlow's data processing capabilities."
 tags: [time series, forecasting, bitcoin, machine learning, tensorflow]
