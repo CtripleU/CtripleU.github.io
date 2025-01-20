@@ -189,6 +189,8 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
+    sort_by: date
+    order: descending
 
 
 # Defaults
