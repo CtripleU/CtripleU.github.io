@@ -14,7 +14,7 @@ Throughout my career, I have excelled in diverse roles spanning Machine Learning
 - Contribute to technically challenging projects
 - Deliver impactful solutions
 
-I am deeply interested in the **healthcare**, **education**, and **business** sectors and am adept at finding opportunities where others might see obstacles in these fields.
+I am deeply interested in the **healthcare** and **education** sectors and am adept at finding opportunities where others might see obstacles in these fields.
 
 Currently in the final stretch of my Software Engineering degree, I am on track to graduate with First-Class Honours. My academic excellence has been recognized through prestigious awards, including the Palantir Global Scholarship in 2024 and the Mastercard Foundation Scholarship in 2021.
 
