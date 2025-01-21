@@ -7,7 +7,7 @@ header:
 
 Hello! Welcome to my space. 
 
-I am deeply interested in how things work and how they can work better. This makes me adept at finding opportunities where others might see obstacles. My interests are at the intersection of technology, data, research, and social impact.
+My name is Cumi and I am deeply interested in how things work, and how they can work better. This makes me adept at finding opportunities where others might see obstacles. My interests are at the intersection of technology, data, research, and social impact.
 
 Throughout my career, I have excelled in diverse roles spanning Machine Learning, Research and Analysis, Project Management, and DevOps. I have consistently demonstrated my ability to:
 
