@@ -5,7 +5,7 @@ author_profile: true
 excerpt: "This project implements a neural machine translation model to translate English sentences to Igbo using a sequence-to-sequence LSTM architecture."
 tags: [NLP, machine translation, deep learning, LSTM, English, Igbo]
 header:
-  image: "images/projects/translation/download.png"
+  # image: "images/projects/translation/download.png"
   teaser: "images/teasers/download.png"
 categories:
   - Natural Language Processing

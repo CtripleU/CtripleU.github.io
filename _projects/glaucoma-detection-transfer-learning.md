@@ -1,11 +1,13 @@
 ---
 title: "Transfer Learning for Glaucoma Detection"
 date: 2023-10-07
+author_profile: true
+excerpt: "Applying transfer learning techniques to detect glaucoma from retinal images."
 tags: [machine learning, deep learning, transfer learning, medical imaging, glaucoma detection]
 header:
-  image: "images/projects/glaucoma-detection/gd.png"
+  # image: "images/projects/glaucoma-detection/gd.png"
   teaser: "images/teasers/gd.jpeg"
-excerpt: "Applying transfer learning techniques to detect glaucoma from retinal images."
+mathjax: "true"
 ---
 
 

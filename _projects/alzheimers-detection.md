@@ -1,11 +1,12 @@
 ---
 title: "Exploring Optimization Techniques for Alzheimer's Detection using MRI Scans"
 date: 2023-02-29
+author_profile: true
+excerpt: "Developing and optimizing CNN models for classifying Alzheimer's disease severity from MRI scans"
 tags: [deep learning, CNN, medical imaging, Alzheimer's, MRI, optimization techniques]
 header:
-  image: "images/projects/alzheimers-detection/image.png"
+  # image: "images/projects/alzheimers-detection/image.png"
   teaser: "/images/teasers/ad.jpeg"
-excerpt: "Developing and optimizing CNN models for classifying Alzheimer's disease severity from MRI scans"
 mathjax: "true"
 ---
 
@@ -60,6 +61,9 @@ The optimized model demonstrated significant improvements over the baseline mode
   - Precision: 94.48%
   - Recall: 94.30%
   - F1 Score: 94.33%
+
+Here is a visualization of the optimized model's predictions:
+![Prediction](/images/projects/alzheimers-detection/image.png)
 
 ## Key Findings
 

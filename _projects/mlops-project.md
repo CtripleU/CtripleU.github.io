@@ -1,11 +1,13 @@
 ---
 title: "MLOps: Operationalizing a Machine Learning Microservice API"
 date: 2022-07-30
+author_profile: true
+excerpt: "Implementing MLOps practices to deploy and manage a machine learning model as a microservice."
 tags: [mlops, machine learning, docker, kubernetes, circleci, devops]
 header:
-  image: "images/projects/mlops/mlops.jpeg"
+#   image: "images/projects/mlops/mlops.jpeg"
   teaser: "images/teasers/mlops.jpeg"
-excerpt: "Implementing MLOps practices to deploy and manage a machine learning model as a microservice."
+mathjax: "true"
 ---
 
 

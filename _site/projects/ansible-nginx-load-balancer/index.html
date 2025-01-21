@@ -1,0 +1,523 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.17.2 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Ansible Nginx Load Balancer Infrastructure - Cumi’s Portfolio</title>
+<meta name="description" content="Building and deploying an Nginx load balancing infrastructure using Ansible and Vagrant.">
+
+
+  <meta name="author" content="Cumi Oyemike">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Cumi's Portfolio">
+<meta property="og:title" content="Ansible Nginx Load Balancer Infrastructure">
+<meta property="og:url" content="http://localhost:4000/projects/ansible-nginx-load-balancer/">
+
+
+  <meta property="og:description" content="Building and deploying an Nginx load balancing infrastructure using Ansible and Vagrant.">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/images/projects/load-balancer/lb.webp">
+
+
+
+
+
+  <meta property="article:published_time" content="2021-10-06T00:00:00+02:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/projects/ansible-nginx-load-balancer/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Cumi Oyemike",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Cumi's Portfolio Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Cumi's Portfolio
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/" >About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/projects/" >Projects</a>
+            </li><li class="masthead__menu-item">
+              <a href="/posts/" >Posts</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+
+
+
+
+<div class="page__hero"
+  style=" "
+>
+  
+    <img src="/images/projects/load-balancer/lb.webp" alt="Ansible Nginx Load Balancer Infrastructure" class="page__hero-image">
+  
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  <style>
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+    
+</style>
+
+
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+
+      
+        <img src="/images/profile-pic.jpeg" alt="Cumi Oyemike" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Cumi Oyemike</h3>
+    
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  
+  <a href="mailto:cumioyemike@gmail.com" style="text-decoration: none;color: black;" target="_blank"><img src="https://ctripleu.github.io/images/icons/mail.png" style="width: 20px; margin-bottom:7px;"> Mail </a>
+  <a href="https://www.linkedin.com/in/cumi-oyemike/" style="text-decoration: none;color: black;margin-top:-20px;" target="_blank"><img src="https://ctripleu.github.io/images/icons/linkedin.png" style="width: 20px; margin-bottom:7px;"> LinkedIn </a>
+  <a href="https://github.com/CtripleU" style="text-decoration: none;color: black;margin-top:-20px;" target="_blank"><img src="https://ctripleu.github.io/images/icons/github.png" style="width: 20px; margin-bottom:7px;"> Github </a> 
+  <a href="https://medium.com/@cumioyemike" style="text-decoration: none;color: black;margin-top:-20px;" target="_blank"><img src="https://ctripleu.github.io//images/icons/medium.png" style="width: 20px; margin-bottom:7px;"> Medium </a>      
+  <a href="https://www.kaggle.com/cumioyemike" style="text-decoration: none;color: black;margin-top:-20px;" target="_blank"><img src="https://ctripleu.github.io//images/icons/kaggle.png" style="width: 20px; margin-bottom:7px;"> Kaggle </a>
+  
+   <!-- <p style="font-size:15px;text-align: justify;">
+	
+	</p> -->
+
+   <h3>Skills</h3>
+   <ul>
+        <li>Research</li>
+        <li>Data Analysis and Visualization</li>
+        <li>Machine Learning</li>
+        <li>DevOps and SRE</li>
+   </ul>
+
+</div>
+
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Ansible Nginx Load Balancer Infrastructure">
+    <meta itemprop="description" content="Building and deploying an Nginx load balancing infrastructure using Ansible and Vagrant.">
+    <meta itemprop="datePublished" content="October 06, 2021">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Ansible Nginx Load Balancer Infrastructure
+</h1>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>This project demonstrates the setup and deployment of an Nginx load balancing infrastructure using Ansible and Vagrant. It includes the creation of three virtual machines: one load balancer and two web servers, all configured and managed through Ansible playbooks.</p>
+
+<h2 id="tech-stack">Tech Stack</h2>
+
+<ul>
+  <li>Vagrant</li>
+  <li>VirtualBox</li>
+  <li>Ansible</li>
+  <li>Nginx</li>
+  <li>Ubuntu 18.04 (Bionic)</li>
+  <li>Python</li>
+  <li>Flask</li>
+</ul>
+
+<h2 id="key-features">Key Features</h2>
+
+<ol>
+  <li>Automated VM provisioning with Vagrant</li>
+  <li>Configuration management using Ansible</li>
+  <li>Nginx load balancer setup</li>
+  <li>Deployment of a simple Flask application on web servers</li>
+  <li>Round-robin load balancing demonstration</li>
+</ol>
+
+<h2 id="project-structure">Project Structure</h2>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Vagrantfile</code>: Defines the virtual machine configurations</li>
+  <li><code class="language-plaintext highlighter-rouge">ansible/</code>:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">ansible.cfg</code>: Ansible configuration file</li>
+      <li><code class="language-plaintext highlighter-rouge">hosts</code>: Inventory file for Ansible</li>
+      <li><code class="language-plaintext highlighter-rouge">site.yml</code>: Main Ansible playbook</li>
+      <li><code class="language-plaintext highlighter-rouge">playbook_nginx.yml</code>: Playbook for Nginx configuration</li>
+      <li><code class="language-plaintext highlighter-rouge">playbook_web_servers.yml</code>: Playbook for web server setup</li>
+      <li><code class="language-plaintext highlighter-rouge">nginx.cfg</code>: Nginx configuration file</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="setup-and-deployment">Setup and Deployment</h2>
+
+<ol>
+  <li>Clone the repository</li>
+  <li>Ensure Vagrant, VirtualBox, and Ansible are installed</li>
+  <li>Run <code class="language-plaintext highlighter-rouge">vagrant up</code> to create and provision the VMs</li>
+  <li>The infrastructure will be automatically configured using Ansible playbooks</li>
+</ol>
+
+<h2 id="load-balancer-testing">Load Balancer Testing</h2>
+
+<ul>
+  <li>Access <code class="language-plaintext highlighter-rouge">http://192.168.33.11</code> in a web browser</li>
+  <li>Refresh to see responses alternating between server-1 and server-2</li>
+  <li>Alternatively, use <code class="language-plaintext highlighter-rouge">curl http://192.168.33.11</code> from the terminal</li>
+</ul>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>This project showcases the power of infrastructure as code and configuration management in creating a scalable and easily reproducible load balancing setup. It provides hands-on experience with key DevOps tools and practices.</p>
+
+<p><a href="https://github.com/CtripleU/Ansible-Nginx-Load-Balancer-Infrastructure.git">View Project on GitHub</a></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#ansible" class="page__taxonomy-item" rel="tag">ansible</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#devops" class="page__taxonomy-item" rel="tag">devops</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#load-balancing" class="page__taxonomy-item" rel="tag">load balancing</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#nginx" class="page__taxonomy-item" rel="tag">nginx</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#vagrant" class="page__taxonomy-item" rel="tag">vagrant</a>
+    
+    </span>
+  </p>
+
+
+
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-10-06T00:00:00+02:00">October 06, 2021</time></p>
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Ansible+Nginx+Load+Balancer+Infrastructure%20http%3A%2F%2Flocalhost%3A4000%2Fprojects%2Fansible-nginx-load-balancer%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fprojects%2Fansible-nginx-load-balancer%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fprojects%2Fansible-nginx-load-balancer%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="#" class="pagination--pager disabled">Previous</a>
+    
+    
+      <a href="/projects/devops-projects/" class="pagination--pager" title="DevOps Projects
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2025 Cumi Oyemike.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+
+
+
+
+
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "http://localhost:4000/projects/ansible-nginx-load-balancer/";  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = "/projects/ansible-nginx-load-balancer"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://https-ctripleu-github-io.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+
+
+
+
+
+  </body>
+</html>

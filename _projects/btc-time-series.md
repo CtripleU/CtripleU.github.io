@@ -5,8 +5,8 @@ author_profile: true
 excerpt: "This project focuses on applying time series analysis techniques to forecast Bitcoin (BTC) prices using advanced machine learning models and TensorFlow's data processing capabilities."
 tags: [time series, forecasting, bitcoin, machine learning, tensorflow]
 header:
-  image: "images/projects/btc/btc_price_prediction.png"
-  teaser: "images/teasers/btc_timeseries.png"
+  # image: "images/projects/btc/btc_price_prediction.png"
+  teaser: "images/teasers/btc.png"
 categories:
   - Data Processing
   - Machine Learning

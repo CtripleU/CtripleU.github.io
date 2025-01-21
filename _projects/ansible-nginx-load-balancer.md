@@ -1,11 +1,13 @@
 ---
 title: "Ansible Nginx Load Balancer Infrastructure"
 date: 2021-10-06
+author_profile: true
+excerpt: "Building and deploying an Nginx load balancing infrastructure using Ansible and Vagrant."
 tags: [ansible, nginx, load balancing, vagrant, devops]
 header:
   image: "images/projects/load-balancer/lb.webp"
   teaser: "images/teasers/lb.avif"
-excerpt: "Building and deploying an Nginx load balancing infrastructure using Ansible and Vagrant."
+mathjax: "true"
 ---
 
 

@@ -6,3 +6,10 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.page__hero-image {
+    width: 30%; /* Reduces to 75% of container width */
+    height: 2%;
+    margin: 0 auto; /* Centers the image */
+    display: block;
+  }
