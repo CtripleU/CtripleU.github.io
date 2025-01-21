@@ -7,6 +7,7 @@ tags: [genomic surveillance, AI, machine learning, web development, mpox, public
 header:
   image: "images/projects/genomic-foresight/1.png"
   teaser: "images/teasers/gf.png"
+classes: "custom-header"
 categories:
   - Data Science
   - Genomics

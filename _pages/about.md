@@ -5,7 +5,9 @@ header:
   image: "/images/data.png"
 ---
 
-Hello! I am a dynamic professional who is deeply interested in how things work, and how they can work better. My interests lie at the intersection of technology, research, and social impact.
+Hello! Welcome to my space. 
+
+I am deeply interested in how things work and how they can work better. This makes me adept at finding opportunities where others might see obstacles. My interests are at the intersection of technology, data, research, and social impact.
 
 Throughout my career, I have excelled in diverse roles spanning Machine Learning, Research and Analysis, Project Management, and DevOps. I have consistently demonstrated my ability to:
 
@@ -14,9 +16,7 @@ Throughout my career, I have excelled in diverse roles spanning Machine Learning
 - Contribute to technically challenging projects
 - Deliver impactful solutions
 
-I am deeply interested in the **healthcare** and **education** sectors and am adept at finding opportunities where others might see obstacles in these fields.
-
-Currently in the final stretch of my Software Engineering degree, I am on track to graduate with First-Class Honours. My academic excellence has been recognized through prestigious awards, including the Palantir Global Scholarship in 2024 and the Mastercard Foundation Scholarship in 2021.
+I have just concluded all course-work for my Software Engineering degree with First-Class Honours. My academic excellence has been recognized through prestigious awards, including the Palantir Global Scholarship in 2024 and the Mastercard Foundation Scholarship in 2021.
 
 **I enjoy working with diverse teams and bringing different perspectives together to create something truly innovative. As a result, I am seeking opportunities to push the boundaries of what could be achieved by harnessing data, technology, and research. My goal is to contribute to projects that will challenge me and push me to grow, while creating something extraordinary.**
 

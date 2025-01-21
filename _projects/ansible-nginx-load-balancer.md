@@ -7,6 +7,7 @@ tags: [ansible, nginx, load balancing, vagrant, devops]
 header:
   image: "images/projects/load-balancer/lb.webp"
   teaser: "images/teasers/lb.avif"
+classes: "custom-header"
 mathjax: "true"
 ---
 

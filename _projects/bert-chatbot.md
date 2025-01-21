@@ -7,6 +7,7 @@ tags: [BERT, chatbot, medical, machine learning, NLP]
 header:
   image: "images/projects/bert-chatbot/1.png"
   teaser: "images/teasers/1.png"
+classes: "custom-header"
 categories:
   - Natural Language Processing
   - Machine Learning
